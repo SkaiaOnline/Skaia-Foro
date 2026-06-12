@@ -82,7 +82,7 @@
     border-radius: 2px;
     border: 1px solid var(--ac-color-2);
 }
-/* SUBTITULO (el tuyo, solo agrego margen superior leve) */
+/* SUBTITULO */
 .chip-tab-sb {  
     border-bottom: var(--ac-border);
     color: var(--ac-color-2);
