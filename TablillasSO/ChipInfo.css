@@ -82,3 +82,40 @@
     border-radius: 2px;
     border: 1px solid var(--ac-color-2);
 }
+/* SUBTITULO (el tuyo, solo agrego margen superior leve) */
+.chip-tab-sb {  
+    border-bottom: var(--ac-border);
+    color: var(--ac-color-2);
+    font: 500 30px var(--my-t);
+    letter-spacing: 1px;
+    line-height: 100%;
+    padding: 4px 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background: var(--ac-color-3);
+}
+/* CAJA TEXTO CON SCROLL */
+.chip-box-text {
+    background: rgb(0 0 0 / .2);
+    border-bottom: 2px solid var(--ac-color-3);
+    padding: 0px 15px 15px;
+    max-height: 310px;
+    overflow-y: auto;
+    font: 15px Consolas;
+    line-height: 1.5em;
+    color: var(--ac-color-1);
+}
+
+/* SCROLL PERSONALIZADO (opcional pero bonito) */
+.chip-box-text::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chip-box-text::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);
+}
+
+.chip-box-text::-webkit-scrollbar-thumb {
+  background: var(--ac-color-3);
+}
